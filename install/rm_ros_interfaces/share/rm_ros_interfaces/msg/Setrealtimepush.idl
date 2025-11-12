@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Setrealtimepush.msg
+// generated code does not contain a copyright notice
+
+
+module rm_ros_interfaces {
+  module msg {
+    struct Setrealtimepush {
+      uint16 cycle;
+
+      uint16 port;
+
+      uint16 force_coordinate;
+
+      string ip;
+
+      boolean aloha_state_enable;
+
+      boolean arm_current_status_enable;
+
+      boolean expand_state_enable;
+
+      boolean hand_enable;
+
+      boolean joint_speed_enable;
+
+      boolean lift_state_enable;
+
+      boolean plus_base_enable;
+
+      boolean plus_state_enable;
+    };
+  };
+};

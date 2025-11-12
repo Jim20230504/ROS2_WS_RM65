@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Mastername.msg
+// generated code does not contain a copyright notice
+
+
+module rm_ros_interfaces {
+  module msg {
+    struct Mastername {
+      @verbatim (language="comment", text=
+        "主站名称")
+      string master_name;
+    };
+  };
+};

@@ -1,0 +1,175 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jim/ros2_ws/build/rm_description
+-- Install configuration: ""
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_75_6fb_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_65_6fb_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_eco63_6fb_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_gen72_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_gen72_II_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_eco65_6f_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_63_6fb_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_63_6f_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_75_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_75_6f_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_eco65_6fb_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_eco63_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_eco65_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_65_6f_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_65_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/launch/rm_63_display.launch.py
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco63_gazebo.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco63_gazebo.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_75_6fb.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_gen72.csv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_75.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco65.csv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_65_description.csv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_75_6f.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_75_gazebo.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_65.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63_description.csv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco63.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63_6fb_description.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_65.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_gen72_II.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_75.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63_gazebo.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_75_description.csv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco65_6fb.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63_6fb.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco65_gazebo.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63_gazebo.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_65_gazebo.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco63_6fb.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco65.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_75_gazebo.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco63.csv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/display_arm.rviz
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_65_6fb.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_gen72_gazebo.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco65.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_65_6f.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63_6f.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_gen72_II_gazebo.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rml_63.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_gen72.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco65_gazebo.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco63.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_eco65_6f.urdf
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/urdf/rm_65_gazebo.urdf.xacro
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/base_link.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link7.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/base_link.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link6_6f.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link6_6fb.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/base_link.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link6_6f.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link6_6fb.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/base_link.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/base_link.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link7.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/base_link.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link7_6f.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link7.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link7_6fb.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link6_6fb.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link6_6f.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/baselink.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link6_6fb.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link4.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/base_link.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link6.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link3.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link2.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link1.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link5.STL
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/ament_index/resource_index/package_run_dependencies/rm_description
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/ament_index/resource_index/parent_prefix_path/rm_description
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/environment/ament_prefix_path.sh
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/environment/ament_prefix_path.dsv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/environment/path.sh
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/environment/path.dsv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/local_setup.bash
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/local_setup.sh
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/local_setup.zsh
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/local_setup.dsv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/package.dsv
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/ament_index/resource_index/packages/rm_description
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/cmake/rm_descriptionConfig.cmake
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/cmake/rm_descriptionConfig-version.cmake
+-- Installing: /home/jim/ros2_ws/install/rm_description/share/rm_description/package.xml

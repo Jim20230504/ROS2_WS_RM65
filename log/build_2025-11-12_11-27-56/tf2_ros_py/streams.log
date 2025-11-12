@@ -1,0 +1,50 @@
+[0.999s] Invoking command in '/home/jim/ros2_ws/src/geometry2/tf2_ros_py': AMENT_PREFIX_PATH=/home/jim/ros2_ws/install/tf2_py:/home/jim/ros2_ws/install/tf2_msgs:/home/jim/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jim/ros2_ws/install/tf2_py:/home/jim/ros2_ws/install/tf2_msgs:/home/jim/ros2_ws/install/tf2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jim/ros2_ws/install/tf2_msgs/lib:/home/jim/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jim/ros2_ws/build/tf2_ros_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/jim/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/jim/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tf2_ros_py build --build-base /home/jim/ros2_ws/build/tf2_ros_py/build install --record /home/jim/ros2_ws/build/tf2_ros_py/install.log --single-version-externally-managed install_data
+[1.636s] running egg_info
+[1.636s] creating ../../../build/tf2_ros_py/tf2_ros_py.egg-info
+[1.636s] writing ../../../build/tf2_ros_py/tf2_ros_py.egg-info/PKG-INFO
+[1.636s] writing dependency_links to ../../../build/tf2_ros_py/tf2_ros_py.egg-info/dependency_links.txt
+[1.636s] writing requirements to ../../../build/tf2_ros_py/tf2_ros_py.egg-info/requires.txt
+[1.636s] writing top-level names to ../../../build/tf2_ros_py/tf2_ros_py.egg-info/top_level.txt
+[1.636s] writing manifest file '../../../build/tf2_ros_py/tf2_ros_py.egg-info/SOURCES.txt'
+[1.637s] reading manifest file '../../../build/tf2_ros_py/tf2_ros_py.egg-info/SOURCES.txt'
+[1.638s] writing manifest file '../../../build/tf2_ros_py/tf2_ros_py.egg-info/SOURCES.txt'
+[1.639s] running build
+[1.639s] running build_py
+[1.639s] creating /home/jim/ros2_ws/build/tf2_ros_py/build
+[1.640s] creating /home/jim/ros2_ws/build/tf2_ros_py/build/lib
+[1.640s] creating /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.640s] copying tf2_ros/transform_broadcaster.py -> /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.640s] copying tf2_ros/buffer_interface.py -> /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.640s] copying tf2_ros/static_transform_broadcaster.py -> /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.641s] copying tf2_ros/__init__.py -> /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.641s] copying tf2_ros/transform_listener.py -> /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.641s] copying tf2_ros/buffer.py -> /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.641s] copying tf2_ros/buffer_client.py -> /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros
+[1.642s] running install
+[1.642s] running install_lib
+[1.644s] creating /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.644s] copying /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros/transform_broadcaster.py -> /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.644s] copying /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros/buffer_interface.py -> /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.645s] copying /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros/static_transform_broadcaster.py -> /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.647s] copying /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros/__init__.py -> /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.648s] copying /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros/transform_listener.py -> /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.648s] copying /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros/buffer.py -> /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.648s] copying /home/jim/ros2_ws/build/tf2_ros_py/build/lib/tf2_ros/buffer_client.py -> /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros
+[1.650s] byte-compiling /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros/transform_broadcaster.py to transform_broadcaster.cpython-310.pyc
+[1.650s] byte-compiling /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros/buffer_interface.py to buffer_interface.cpython-310.pyc
+[1.652s] byte-compiling /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros/static_transform_broadcaster.py to static_transform_broadcaster.cpython-310.pyc
+[1.652s] byte-compiling /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros/__init__.py to __init__.cpython-310.pyc
+[1.653s] byte-compiling /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros/transform_listener.py to transform_listener.cpython-310.pyc
+[1.654s] byte-compiling /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros/buffer.py to buffer.cpython-310.pyc
+[1.657s] byte-compiling /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros/buffer_client.py to buffer_client.cpython-310.pyc
+[1.657s] running install_data
+[1.657s] creating /home/jim/ros2_ws/install/tf2_ros_py/share/ament_index
+[1.658s] creating /home/jim/ros2_ws/install/tf2_ros_py/share/ament_index/resource_index
+[1.658s] creating /home/jim/ros2_ws/install/tf2_ros_py/share/ament_index/resource_index/packages
+[1.658s] copying resource/tf2_ros_py -> /home/jim/ros2_ws/install/tf2_ros_py/share/ament_index/resource_index/packages
+[1.658s] copying package.xml -> /home/jim/ros2_ws/install/tf2_ros_py/share/tf2_ros_py
+[1.661s] running install_egg_info
+[1.661s] Copying ../../../build/tf2_ros_py/tf2_ros_py.egg-info to /home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2_ros_py-0.25.17-py3.10.egg-info
+[1.662s] running install_scripts
+[1.694s] writing list of installed files to '/home/jim/ros2_ws/build/tf2_ros_py/install.log'
+[1.766s] Invoked command in '/home/jim/ros2_ws/src/geometry2/tf2_ros_py' returned '0': AMENT_PREFIX_PATH=/home/jim/ros2_ws/install/tf2_py:/home/jim/ros2_ws/install/tf2_msgs:/home/jim/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jim/ros2_ws/install/tf2_py:/home/jim/ros2_ws/install/tf2_msgs:/home/jim/ros2_ws/install/tf2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jim/ros2_ws/install/tf2_msgs/lib:/home/jim/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jim/ros2_ws/build/tf2_ros_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jim/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/jim/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/jim/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tf2_ros_py build --build-base /home/jim/ros2_ws/build/tf2_ros_py/build install --record /home/jim/ros2_ws/build/tf2_ros_py/install.log --single-version-externally-managed install_data

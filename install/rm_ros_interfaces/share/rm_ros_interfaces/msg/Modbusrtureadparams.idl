@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Modbusrtureadparams.msg
+// generated code does not contain a copyright notice
+
+
+module rm_ros_interfaces {
+  module msg {
+    struct Modbusrtureadparams {
+      @verbatim (language="comment", text=
+        "数据起始地址")
+      int32 address;
+
+      @verbatim (language="comment", text=
+        "外设设备地址")
+      int32 device;
+
+      @verbatim (language="comment", text=
+        "0-控制器端modbus主机；1-工具端modbus主机。")
+      int32 type;
+
+      @verbatim (language="comment", text=
+        "要读的数据的数量，数据长度不超过109")
+      int32 num;
+    };
+  };
+};

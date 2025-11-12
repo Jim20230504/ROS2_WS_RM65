@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Trajectoryinfo.msg
+// generated code does not contain a copyright notice
+
+
+module rm_ros_interfaces {
+  module msg {
+    struct Trajectoryinfo {
+      @verbatim (language="comment", text=
+        "轨迹名称")
+      string name;
+
+      @verbatim (language="comment", text=
+        "创建时间")
+      string create_time;
+
+      @verbatim (language="comment", text=
+        "轨迹点数量")
+      int32 point_num;
+
+      @verbatim (language="comment", text=
+        "查询状态 成功true 失败false")
+      boolean state;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Modbustcpmasterlist.msg
+// generated code does not contain a copyright notice
+
+#include "rm_ros_interfaces/msg/Modbustcpmasterinfo.idl"
+
+module rm_ros_interfaces {
+  module msg {
+    struct Modbustcpmasterlist {
+      @verbatim (language="comment", text=
+        "页码")
+      uint8 page_num;
+
+      @verbatim (language="comment", text=
+        "每页大小")
+      uint8 page_size;
+
+      @verbatim (language="comment", text=
+        "列表长度")
+      uint8 total_size;
+
+      @verbatim (language="comment", text=
+        "模糊搜索")
+      string vague_search;
+
+      @verbatim (language="comment", text=
+        "返回符合的TCP主站列表")
+      sequence<rm_ros_interfaces::msg::Modbustcpmasterinfo> master_list;
+
+      @verbatim (language="comment", text=
+        "查询状态 成功true 失败false")
+      boolean state;
+    };
+  };
+};

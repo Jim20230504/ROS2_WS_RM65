@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tf2_msgs__py",
+		"source" : "/home/jim/ros2_ws/build/tf2_msgs/tf2_msgs__py"
+	}
+}

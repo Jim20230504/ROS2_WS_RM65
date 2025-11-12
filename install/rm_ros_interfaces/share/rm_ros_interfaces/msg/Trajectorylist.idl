@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Trajectorylist.msg
+// generated code does not contain a copyright notice
+
+#include "rm_ros_interfaces/msg/Trajectoryinfo.idl"
+
+module rm_ros_interfaces {
+  module msg {
+    struct Trajectorylist {
+      @verbatim (language="comment", text=
+        "页码")
+      int32 page_num;
+
+      @verbatim (language="comment", text=
+        "每页大小")
+      int32 page_size;
+
+      @verbatim (language="comment", text=
+        "列表长度")
+      int32 total_size;
+
+      @verbatim (language="comment", text=
+        "模糊搜索")
+      string vague_search;
+
+      @verbatim (language="comment", text=
+        "返回符合的轨迹列表")
+      sequence<rm_ros_interfaces::msg::Trajectoryinfo> tra_list;
+
+      @verbatim (language="comment", text=
+        "查询状态 成功true 失败false")
+      boolean state;
+    };
+  };
+};

@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-06342317cd838e289136.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "movej_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movej_demo-6967f5dfc6c307edb12d.json",
+					"name" : "movej_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movejp_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movejp_demo-da78e86c3a5d2e98e3f0.json",
+					"name" : "movejp_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movejp_gen72_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movejp_gen72_demo-3ba6c2206cb918f37045.json",
+					"name" : "movejp_gen72_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movel_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movel_demo-1b8bc8e193df488bc4c7.json",
+					"name" : "movel_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movel_gen72_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movel_gen72_demo-ad1b9b7c3945bbdf725a.json",
+					"name" : "movel_gen72_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_change_work_frame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_change_work_frame-6cf7a8be1dd3790bf195.json",
+					"name" : "rm_change_work_frame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_example_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_example_uninstall-f03519c53ae4020f16b5.json",
+					"name" : "rm_example_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_get_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_get_state-3f8e587c95b847d80d10.json",
+					"name" : "rm_get_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b0e67afd9abf98772bd9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jim/ros2_ws/build/rm_example",
+		"source" : "/home/jim/ros2_ws/src/ros2_rm_robot/rm_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

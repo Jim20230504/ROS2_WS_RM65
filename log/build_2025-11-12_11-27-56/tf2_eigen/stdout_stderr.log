@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found tf2: 0.25.17 (/home/jim/ros2_ws/install/tf2/share/tf2/cmake)
+-- Found tf2_ros: 0.25.17 (/home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.14 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jim/ros2_ws/build/tf2_eigen
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object CMakeFiles/tf2_eigen-test.dir/test/tf2_eigen-test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tf2_eigen-test[0m
+[100%] Built target tf2_eigen-test
+-- Install configuration: ""
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/include/tf2_eigen
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/include/tf2_eigen/tf2_eigen
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/include/tf2_eigen/tf2_eigen/tf2_eigen.h
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/ament_index/resource_index/package_run_dependencies/tf2_eigen
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/ament_index/resource_index/parent_prefix_path/tf2_eigen
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/environment/ament_prefix_path.sh
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/environment/ament_prefix_path.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/environment/path.sh
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/environment/path.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/local_setup.bash
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/local_setup.sh
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/local_setup.zsh
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/local_setup.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/package.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/ament_index/resource_index/packages/tf2_eigen
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/cmake/export_tf2_eigenExport.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/cmake/tf2_eigenConfig.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/cmake/tf2_eigenConfig-version.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_eigen/share/tf2_eigen/package.xml

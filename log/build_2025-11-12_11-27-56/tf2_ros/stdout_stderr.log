@@ -1,0 +1,172 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found tf2: 0.25.17 (/home/jim/ros2_ws/install/tf2/share/tf2/cmake)
+-- Found tf2_msgs: 0.25.17 (/home/jim/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake)
+-- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.14 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jim/ros2_ws/build/tf2_ros
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/create_timer_ros.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/transform_listener.cpp.o[0m
+[ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer_client.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer_server.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/transform_broadcaster.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/static_transform_broadcaster.cpp.o[0m
+[ 23%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 23%] Built target gtest_main
+[ 26%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 26%] Built target gtest
+[ 28%] [32m[1mLinking CXX shared library libtf2_ros.so[0m
+[ 28%] Built target tf2_ros
+[ 30%] [32mBuilding CXX object CMakeFiles/buffer_server.dir/src/buffer_server_main.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/test_buffer.dir/test/test_buffer.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_buffer_server.dir/test/test_buffer_server.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/static_transform_broadcaster_node.dir/src/static_transform_broadcaster_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/tf2_monitor.dir/src/tf2_monitor.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/tf2_echo.dir/src/tf2_echo.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/test_buffer_client.dir/test/test_buffer_client.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_static_transform_broadcaster.dir/test/test_static_transform_broadcaster.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_message_filter.dir/test/message_filter_test.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_transform_broadcaster.dir/test/test_transform_broadcaster.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_transform_listener.dir/test/test_transform_listener.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_time_reset.dir/test/time_reset_test.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_velocity.dir/test/velocity_test.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_listener.dir/test/listener_unittest.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable tf2_echo[0m
+[ 64%] Built target tf2_echo
+[ 66%] [32m[1mLinking CXX executable tf2_ros_test_velocity[0m
+[ 69%] [32m[1mLinking CXX executable buffer_server[0m
+[ 71%] [32m[1mLinking CXX shared library libstatic_transform_broadcaster_node.so[0m
+[ 71%] Built target tf2_ros_test_velocity
+[ 73%] [32m[1mLinking CXX executable test_buffer[0m
+[ 73%] Built target static_transform_broadcaster_node
+[ 73%] Built target buffer_server
+[ 76%] [32mBuilding CXX object CMakeFiles/static_transform_publisher.dir/src/static_transform_broadcaster_program.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_buffer_client[0m
+[ 80%] [32m[1mLinking CXX executable tf2_ros_test_transform_broadcaster[0m
+[ 80%] Built target test_buffer
+[ 80%] Built target tf2_ros_test_transform_broadcaster
+[ 80%] Built target test_buffer_client
+[ 83%] [32m[1mLinking CXX executable tf2_ros_test_time_reset[0m
+[ 85%] [32m[1mLinking CXX executable tf2_ros_test_static_transform_broadcaster[0m
+[ 85%] Built target tf2_ros_test_time_reset
+[ 85%] Built target tf2_ros_test_static_transform_broadcaster
+[ 88%] [32m[1mLinking CXX executable test_buffer_server[0m
+[ 88%] Built target test_buffer_server
+[ 90%] [32m[1mLinking CXX executable static_transform_publisher[0m
+[ 90%] Built target static_transform_publisher
+[ 92%] [32m[1mLinking CXX executable tf2_monitor[0m
+[ 92%] Built target tf2_monitor
+[ 95%] [32m[1mLinking CXX executable tf2_ros_test_message_filter[0m
+[ 97%] [32m[1mLinking CXX executable tf2_ros_test_listener[0m
+[100%] [32m[1mLinking CXX executable tf2_ros_test_transform_listener[0m
+[100%] Built target tf2_ros_test_message_filter
+[100%] Built target tf2_ros_test_transform_listener
+[100%] Built target tf2_ros_test_listener
+-- Install configuration: ""
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/lib/libtf2_ros.so
+-- Set runtime path of "/home/jim/ros2_ws/install/tf2_ros/lib/libtf2_ros.so" to ""
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so
+-- Set runtime path of "/home/jim/ros2_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so" to ""
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/buffer_server
+-- Set runtime path of "/home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/buffer_server" to ""
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/static_transform_publisher
+-- Set runtime path of "/home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/static_transform_publisher" to ""
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_echo
+-- Set runtime path of "/home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_echo" to ""
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_monitor
+-- Set runtime path of "/home/jim/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_monitor" to ""
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_server.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_client.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/visibility_control.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/async_buffer_interface.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/message_filter.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_ros.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_interface.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_broadcaster.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/async_buffer_interface.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_ros.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_visibility_control.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/visibility_control.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_broadcaster.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_interface.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_node.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/qos.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.h
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_visibility_control.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/message_filter.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_server.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_client.hpp
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.sh
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/ament_index/resource_index/package_run_dependencies/tf2_ros
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/ament_index/resource_index/parent_prefix_path/tf2_ros
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.sh
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.sh
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.bash
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.sh
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.zsh
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/package.dsv
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/ament_index/resource_index/packages/tf2_ros
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/ament_index/resource_index/rclcpp_components/tf2_ros
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport-noconfig.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake
+-- Installing: /home/jim/ros2_ws/install/tf2_ros/share/tf2_ros/package.xml

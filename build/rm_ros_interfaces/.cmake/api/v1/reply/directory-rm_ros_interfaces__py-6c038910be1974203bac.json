@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rm_ros_interfaces__py",
+		"source" : "/home/jim/ros2_ws/build/rm_ros_interfaces/rm_ros_interfaces__py"
+	}
+}

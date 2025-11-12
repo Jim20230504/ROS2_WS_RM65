@@ -1,0 +1,69 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Rmplusstate.msg
+// generated code does not contain a copyright notice
+
+
+module rm_ros_interfaces {
+  module msg {
+    typedef int32 int32__12[12];
+    typedef int32 int32__18[18];
+    typedef uint32 uint32__12[12];
+    struct Rmplusstate {
+      @verbatim (language="comment", text=
+        "系统状态")
+      int32 sys_state;
+
+      @verbatim (language="comment", text=
+        "各自由度当前状态")
+      int32__12 dof_state;
+
+      @verbatim (language="comment", text=
+        "各自由度错误信息")
+      int32__12 dof_err;
+
+      @verbatim (language="comment", text=
+        "各自由度当前位置")
+      int32__12 pos;
+
+      @verbatim (language="comment", text=
+        "各自由度当前速度")
+      int32__12 speed;
+
+      @verbatim (language="comment", text=
+        "各自由度当前角度")
+      int32__12 angle;
+
+      @verbatim (language="comment", text=
+        "各自由度当前电流")
+      int32__12 current;
+
+      @verbatim (language="comment", text=
+        "自由度触觉三维力的法向力")
+      int32__18 normal_force;
+
+      @verbatim (language="comment", text=
+        "自由度触觉三维力的切向力")
+      int32__18 tangential_force;
+
+      @verbatim (language="comment", text=
+        "自由度触觉三维力的切向力方向")
+      int32__18 tangential_force_dir;
+
+      @verbatim (language="comment", text=
+        "自由度触觉自接近")
+      uint32__12 tsa;
+
+      @verbatim (language="comment", text=
+        "自由度触觉互接近")
+      uint32__12 tma;
+
+      @verbatim (language="comment", text=
+        "触觉传感器原始数据")
+      int32__18 touch_data;
+
+      @verbatim (language="comment", text=
+        "自由度力矩")
+      int32__12 force;
+    };
+  };
+};

@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Sendproject.msg
+// generated code does not contain a copyright notice
+
+
+module rm_ros_interfaces {
+  module msg {
+    struct Sendproject {
+      @verbatim (language="comment", text=
+        "下发文件路径文件名")
+      string project_path;
+
+      @verbatim (language="comment", text=
+        "名称长度")
+      int32 project_path_len;
+
+      @verbatim (language="comment", text=
+        "规划速度比例系数")
+      int32 plan_speed;
+
+      @verbatim (language="comment", text=
+        "0-保存并运行文件，1-仅保存文件，不运行")
+      int32 only_save;
+
+      @verbatim (language="comment", text=
+        "保存到控制器中的编号")
+      int32 save_id;
+
+      @verbatim (language="comment", text=
+        "设置单步运行方式模式，1-设置单步模式 0-设置正常运动模式")
+      int32 step_flag;
+
+      @verbatim (language="comment", text=
+        "设置默认在线编程文件，1-设置默认  0-设置非默认")
+      int32 auto_start;
+
+      @verbatim (language="comment", text=
+        "下发文件类型。0-在线编程文件，1-拖动示教轨迹文件")
+      int32 project_type;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+[console_scripts]
+move_rm65_client = my_rm_scripts.move_rm65_client:main
+
