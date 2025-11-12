@@ -1,0 +1,38 @@
+# ROS2 编译生成目录（核心忽略项）
+build/
+install/
+log/
+devel/  # 兼容 ROS1 习惯（ROS2 用 install，这里也加上防误提交）
+
+# 编译产物（防止漏网之鱼）
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.log
+*.gz
+*.zip
+*.tar
+*.bin
+
+# ROS2 日志/缓存文件
+.ros/
+.catkin_workspace
+.colcon/
+COLCON_IGNORE
+AMENT_IGNORE
+
+# 编辑器/IDE 临时文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store  # macOS 特有
+
+# 系统临时文件
+tmp/
+temp/
