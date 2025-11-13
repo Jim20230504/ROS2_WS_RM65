@@ -148,7 +148,7 @@ class MoveRm65ActionClient(Node):
         """
         # (X, Y, Z, Roll, Pitch, Yaw)
         goal_a_coords = (0.3, 0.1, 0.4, 180.0, 0.0, 0.0) 
-        goal_b_coords = (0.1, 0.3, 0.5, 180.0, 0.0, 90.0)
+        goal_b_coords = (0.3, 0.3, 0.5, 180.0, 0.0, 0.0)
 
         goal_a = self.create_pose_goal(*goal_a_coords)
         goal_b = self.create_pose_goal(*goal_b_coords)
